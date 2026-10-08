@@ -26,16 +26,16 @@ The workbook contains the following worksheets:
 - the oracle-assistance prompt defining the leasing computation rules, date rules, rounding behavior, output structure, and formatting constraints;
 - the input data for the three oracle-assistance scenarios.
 
-<h4>Chatgpt as oracle.docx</h4> -> contains the ChatGPT responses obtained during the oracle-assistance experiment for the three evaluated scenarios:
+<h4>Chatgpt as oracle_run1, _run2, _run3.docx</h4> -> contains the ChatGPT responses obtained during the oracle-assistance experiment for the three evaluated scenarios:
 1. standard non-zero interest schedule;
 2. zero-interest schedule;
 3. rounding-sensitive final-adjustment schedule.
 
 For each scenario, the document preserves the prompt supplied to the model and the generated intermediate calculations and expected payment schedule. These outputs were subsequently compared with the deterministic reference schedule and the Oracle APEX output.
 
-<h4>Claude as oracle.docx</h4> -> contains the complete Claude responses obtained during the oracle-assistance experiment for the same three leasing scenarios. For each scenario, the document preserves the complete prompt and the generated intermediate calculations and candidate expected payment schedule. These outputs were evaluated against the independently calculated deterministic reference and the Oracle APEX results.
+<h4>Claude as oracle_run1, _run2, _run3.docx</h4> -> contains the complete Claude responses obtained during the oracle-assistance experiment for the same three leasing scenarios. For each scenario, the document preserves the complete prompt and the generated intermediate calculations and candidate expected payment schedule. These outputs were evaluated against the independently calculated deterministic reference and the Oracle APEX results.
 
-<h4>Gemini as oracle.docx</h4> -> contains the complete Gemini responses obtained during the oracle-assistance experiment for the same three leasing scenarios. For each scenario, the document includes the prompt provided to Gemini and the resulting intermediate calculations and candidate expected payment schedule. The outputs were used in the row-by-row and column-by-column comparison reported in the study.
+<h4>Gemini as oracle_run1, _run2, _run3.docx</h4> -> contains the complete Gemini responses obtained during the oracle-assistance experiment for the same three leasing scenarios. For each scenario, the document includes the prompt provided to Gemini and the resulting intermediate calculations and candidate expected payment schedule. The outputs were used in the row-by-row and column-by-column comparison reported in the study.
 
 <h4>Oracle_case1_standard.xlsx</h4>  -> Exported payment schedule produced by the Oracle APEX leasing simulator for Case 1: Standard non-zero interest schedule.
 The case uses a non-zero annual interest rate and represents the normal computational path of the leasing simulator. The workbook contains the complete schedule used as the observed System Under Test (SUT) output for comparison with the deterministic reference and LLM-generated candidate expected schedules.
