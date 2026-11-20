@@ -1,5 +1,5 @@
 
-<h1>LLM-Assisted Requirement-Based Testing of a Financial Leasing Simulator: An Oracle APEX Case Study* </h1>
+<h1>LLM-Assisted Requirement-Based Testing of a Financial Leasing Simulator: An Oracle APEX Case Study</h1>
 
 <p>
 This repository contains the experimental artifacts and replication package supporting the paper
